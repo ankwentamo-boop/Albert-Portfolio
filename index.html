@@ -17,7 +17,29 @@
                 <h2 class="NK">Nkwentamo Albert</h2>
             </div>
         </div>
+
         <ul>
+            <li><a href="#" class="hideOnMobile">Home</a></li>
+            <li><a href="#skills" class="hideOnMobile">Skills</a></li>
+            <li><a href="#projects" class="hideOnMobile">Projects</a></li>
+            <li><a href="#contact" class="hideOnMobile">Contact</a></li>
+            <button onclick="showSidebar()" class="menubtn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-list icons" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+                </svg>
+            </button>
+        </ul>
+
+        <ul class="sidebar">
+            <button onclick="hideSidebar()" class="menubtn btnTwo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-x-lg icons" viewBox="0 0 16 16">
+                    <path
+                        d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z" />
+                </svg>
+            </button>
             <li><a href="#">Home</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
@@ -112,10 +134,10 @@
             </div>
             <div class="footerEl">
                 <h3>Contact</h3>
-                 <p>
-                     <i class="fa-solid fa-envelope"></i>
+                <p>
+                    <i class="fa-solid fa-envelope"></i>
                     <a href="mailto:nkwentamo526@gmail.com">nkwentamo526@gmail.com</a>
-                 </p>
+                </p>
                 <p>
                     <i class="fa-solid fa-phone"></i>
                     <a href="tel:+237612345678">+237 622 057 328</a>
@@ -132,6 +154,7 @@
             <p style="color: white;"> &copy; 2024 TeachFind. All rights reserved.</p>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
