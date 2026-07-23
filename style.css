@@ -228,14 +228,6 @@ nav a:hover {
     margin-bottom: 20px
 }
 
-.project-photo-one {
-    background-image: url('./image folder/Screenshot (83).png')
-}
-
-.project-photo {
-    background-image: url('./image folder/Screenshot (84).png')
-}
-
 .projects-description a {
     display: inline-block;
     margin-top: 10px;
@@ -292,10 +284,10 @@ footer {
     height: 100%;
 }
 
-.btnTwo{
+.btnTwo {
     position: absolute;
     top: 10px;
-    right:10px;
+    right: 10px;
 }
 
 
